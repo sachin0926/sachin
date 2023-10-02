@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6696d74c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo9.png" class="logo">
+                <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CSE ENGINEER</p>
+                <h1>Hi,I'm <span>Sachin</span> <br>Kumar From Kolkata</h1>
+            </div>
+        </div>
+    </div>
+    <!------about----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/kingsman.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Sachin Kumar, and I'm thrilled to welcome you to my profile.
+                         I'm currently  pursuing my engineering degree in Computer Science from Kolkata .My passion for technology ignited at an early age, and it's been an exhilarating journey ever since. 
+                         I've always been fascinated by the limitless possibilities that the world of computer science offers.In my academic pursuits, I've consistently demonstrated a strong work ethic and a thirst for knowledge. 
+                         I take pride in my ability to tackle complex programming challenges and thrive in collaborative environments.Outside of my studies, I believe in maintaining a balanced life. I'm an avid explorer of Kolkata's rich culture and diverse culinary scene. 
+                         I also have a keen interest in photography, capturing the beauty of life through my camera lens.Thank you for taking the time to visit my profile. 
+                         Feel free to connect with me. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br></li>
+                            <li><span>CSS</span> <br></li>
+                            <li><span>Java Script</span><br>Creating a webpage </li>
+                            <li><span>C++</span><br> With Data structures and Alrogithms </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>WEBSITE BUILDING Since 2021</span><br></li>
+                            <li><span>2+ YEARS OF CONTENT WRITING</span><br>Written many content writing for a professional writer</li>
+                            <li><span>VIDEO-EDITOR Since 2021</span><br>Internsala</li>
+                            <li><span>UI/UX DESIGNER</span><br>CANVA & INSTAGRAM</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> CLASS 1th-5th BFWS Arunachal Pradesh (CBSE)</span><br>2008-2013</li>
+                            <li><span>10th RK MISSION (CBSE)</span><br>2013-2019</li>
+                            <li><span>12th SBP VIDYA VIHAR (CBSE) </span><br>2019-2021</li>
+                            <li><span>B-TECH CSE FROM MSIT KOLKATA </span><br>2021-present</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<!-----------services--------- ---->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Hello, I'm Sachin Kumar, a passionate web designer dedicated to crafting visually stunning and user-friendly websites. With a keen eye for design aesthetics and a deep understanding of user experience, I bring web projects to life. Below are some of my recent web design creations:
+
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>A dedicated UI/UX designer with a passion for crafting seamless and delightful digital experiences. My portfolio showcases a selection of projects where I've applied user-centered design principles to create intuitive and visually engaging interfaces:</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>CONTENT WRITING</h2>
+                <p>A passionate content writer dedicated to crafting compelling and engaging written content. My portfolio showcases a selection of projects where I've wielded words to inform, entertain, and connect with audiences:</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+   </div>
+
+</div>
+
+<!-- ----------------portfolio--------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media Design</h3>
+                    <p>This Design can provide you an enormus details about everything platform </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music Design</h3>
+                    <p>I Build  a music streaming platform to enhance the user interface. 
+                        The result is an intuitive and visually pleasing interface that encourages users to discover and enjoy new music effortlessly</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Site</h3>
+                    <p>I specialize in crafting stunning and functional websites that cater to various needs and industries. With a user-friendly approach,
+                         I've helped businesses and individuals establish their online presence</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+<!-- --------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>thesachin9999k@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9903721535</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100010986365299"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/SachinK63582232"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/thesachin_26/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sachin-kumar-6249ab230/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright © Sachin . Made with <i class="fa-solid fa-heart"></i> by YOURS TRULY SACHIN </p>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) { 
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+       var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxH7E7UUgJ6WrsjVhoMCh39in7QPfsTRuDKDgkiBAKKYf5I8xbgXgcwlRyV1LvEbh_-2A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+
+            },5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+    
+    
+</body>
+</html>
